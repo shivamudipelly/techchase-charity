@@ -12,7 +12,7 @@ const Header = () => {
             <img src={logo} alt="Logo" className="object-cover" />
           </div>
           <nav className="hidden md:flex ml-10 space-x-4">
-            <a className="text-gray-600 hover:text-gray-800" href="#home">
+            <a className="text-gray-600 hover:text-gray-800" href="/">
               Home
             </a>
             <a className="text-gray-600 hover:text-gray-800" href="#about">
