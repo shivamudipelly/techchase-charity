@@ -53,7 +53,7 @@ const CauseCard = ({ title, description, amount, progress, image }) => {
         <div className="flex flex-col">
           <div className="flex justify-between items-center mb-2 text-sm">
             <span className={`text-${progressColor}-500 font-bold`}>{amount}</span>
-            <span>{progress} Completed</span>
+            <span>Donated till now</span>
           </div>
           <div className="relative w-full h-2 bg-gray-200 rounded">
             <div
